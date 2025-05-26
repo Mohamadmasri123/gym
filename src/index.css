@@ -1,1 +1,17 @@
 @import "tailwindcss";
+
+@theme {
+    --color-primary: #ff8901;
+    --color-secondary: #fb923c;
+    --container-padding: 1rem;
+  --container-padding-sm: 2rem;
+  --container-padding-lg: 3rem;
+  --container-padding-xl: 4rem;
+  --container-padding-2xl: 5rem;
+  }
+
+
+
+
+
+
