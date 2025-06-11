@@ -5,7 +5,8 @@ import Hero from './components/Hero'
 import  Equipment from './components/Equipment'
 import Banner from './components/Banner'
 import banner1Img from './../src/assets/10.png'
-import banner2Img from './../src/assets/2.jpg'
+import banner2Img from './../src/assets/3.jpg'    
+import TabComp from './components/TabComp'
 
 const bgStyle={
   backgroundImage: `url(${bg})`,
@@ -21,12 +22,12 @@ const bannerinfo1 = {
   subtitle: "Discover the best gear for your next adventure.",
   link: "Shop Now"
 }
-// const bannerinfo2 = {
-//   img: banner2Img,
-//   title: "Join Our Community",
-//   subtitle: "Connect with fellow enthusiasts and share your experiences.",
-//   link: "Join Now"
-// }
+const bannerinfo2 = {
+  img: banner2Img,
+  title: "Join Our Community",
+  subtitle: "Connect with fellow enthusiasts and share your experiences.",
+  link: "Join Now"
+}
 
 
 const App = () => {
@@ -38,7 +39,9 @@ const App = () => {
     </div>
     <Equipment/>
     <Banner {... bannerinfo1} />
-        {/* <Banner {... bannerinfo2} /> */}
+    <TabComp />
+        <Banner {... bannerinfo2} />
+
 
     </div>
   )

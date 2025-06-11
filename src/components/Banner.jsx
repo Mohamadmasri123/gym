@@ -12,7 +12,7 @@ const Banner = ({img,title,subtitle,link}) => {
           initial={{ opacity: 0, scale: 0.5 }}
           whileInView={{ opacity: 1, scale: 1 }}
             transition={{ type:"spring", stiffness: 100, delay: 1 }}
-          src={img} alt="" className="w-[400px] md:max-w-[400px] xl:min-w-[400px] h-full object-cover " />{" "}
+          src={img} alt="" className="w-[400px] md:max-w-[300px] xl:min-w-[300px] h-full object-cover " />{" "}
         </div>
         <div className="flex flex-col justify-center items-start space-y-6 p-6">
           <motion.h1
