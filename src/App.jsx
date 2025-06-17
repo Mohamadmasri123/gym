@@ -8,6 +8,7 @@ import banner1Img from "./../src/assets/10.png";
 import banner2Img from "./../src/assets/3.jpg";
 import TabComp from "./components/TabComp";
 import Testimonial from "./components/Testimonial";
+import News from "./components/News";
 
 const bgStyle = {
   backgroundImage: `url(${bg})`,
@@ -42,6 +43,7 @@ const App = () => {
       <TabComp />
       <Banner {...bannerinfo2} />
       <Testimonial/>
+      <News />
     </div>
   );
 };
