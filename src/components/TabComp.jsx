@@ -39,7 +39,11 @@ const TabComp = () => {
             key={card.id}
             className="bg-white p-4 rounded-lg shadow-md mb-4"
           >
-            <img src={card.image} alt="" className="h-[300px] w-full object-cover" />
+            <img
+              src={card.image}
+              alt=""
+              className="h-[300px] w-full object-cover"
+            />
             <p className=" text-2xl font-semibold font-playfair py-2">
               {card.category}
             </p>
