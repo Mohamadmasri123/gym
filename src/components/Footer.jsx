@@ -4,13 +4,15 @@ import { FaFacebook } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa6";
 import { FaLinkedin } from "react-icons/fa";
 import { FaLocationDot } from "react-icons/fa6";
-import { div } from "framer-motion/client";
+import { IoIosCode } from "react-icons/io";
 import { MdEmail } from "react-icons/md";
 import { IoMdHome } from "react-icons/io";
 import { FaPhone } from "react-icons/fa6";
 const Footer = () => {
   return (
-    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 bg-black md:px-16 lg:px-16 px-4 py-10">
+    <div className="bg-black"> 
+    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 md:px-16 lg:px-16 px-4 py-10">
+      
       <div className=""> 
         <h1 className=" flex items-center gap-2 text-xl font-bold text-white mb-4">
           {" "}
@@ -71,7 +73,14 @@ const Footer = () => {
           </button>
         </form>
       </div>
-    </div>
+
+     
+    </div> 
+    <div className=" py-4 text-gray-300 border-t-2  border-gray-400 text-center flex  items-center justify-center gap-1">
+      @copyright 2025 By Programmer  <span className="text-primary flex items-center gap-1">  <IoIosCode />  Mohamad Masri </span> 
+
+      </div>
+      </div>
   );
 };
 
