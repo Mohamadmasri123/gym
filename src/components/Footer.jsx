@@ -30,7 +30,7 @@ const Footer = () => {
           <FaLinkedin size={20} />
         </div>
       </div>
-      <div className="pl-16">
+      <div className="lg:pl-16">
         <h2 className="text-xl font-bold text-white mb-4">Quick Links</h2>
         <ul className="text-gray-100">
           <li className="mb-2 hover:text-secondary cursor-pointer">Home</li>
