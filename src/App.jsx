@@ -9,6 +9,7 @@ import banner2Img from "./../src/assets/3.jpg";
 import TabComp from "./components/TabComp";
 import Testimonial from "./components/Testimonial";
 import News from "./components/News";
+import Footer from "./components/Footer";
 
 const bgStyle = {
   backgroundImage: `url(${bg})`,
@@ -44,6 +45,7 @@ const App = () => {
       <Banner {...bannerinfo2} />
       <Testimonial/>
       <News />
+      <Footer/>
     </div>
   );
 };
