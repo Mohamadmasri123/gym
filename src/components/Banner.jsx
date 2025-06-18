@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 
 const Banner = ({img,title,subtitle,link}) => {
   return (
-    <div className="bg-gray-100 mx-16 rounded-1xl shadow-lg my-10 ">
+    <div className="bg-gray-100 lg:mx-16 rounded-1xl shadow-lg my-10 ">
       <div className="grid grid-cols-1 md:grid-cols-2 gap-2 p-4 md:px-16 lg:px-16 items-center">
         <div className=" flex items-center justify-center ">
           {" "}
